@@ -11,6 +11,7 @@ const person={
 };
 
 function user(){
-    console.log(`Hello ${this.name}`)
-}
+    console.log(`Hello ${this.name}`);
+};
 person.method();  // person is the object and user is a method inside person  object
+console.log("Hello World");
