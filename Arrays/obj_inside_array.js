@@ -1,0 +1,21 @@
+const arr = [
+    {
+        name:"Kunal",
+        age:19,
+        city:"Pune"
+    },
+    {
+        name:"Aryan",
+        age:12,
+        city:"Mumbai"
+    },
+    {
+        name:"Shradha",
+        age:27,
+        city:"Kolkata"
+    }
+]
+console.log(arr);
+console.log(arr[0].name);
+arr[1].city="Delhi";
+console.log(arr[1]);
