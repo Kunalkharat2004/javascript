@@ -8,11 +8,12 @@ person.set({product:"Iphone",
             productPrice:120000},"Value_object");
 console.log(person);
 console.log(person.get('firstName'));
+console.log(person.size);
 for(let [key,value] of person){
     console.log(key,":", value);
 }
 for(let p of person){
-    console.log(p , typeof(p[0]));
+    console.log(p,typeof(p[0]));
 }
 for(let p of person.keys()){
     console.log(p,typeof(p));
