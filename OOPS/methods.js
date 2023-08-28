@@ -8,8 +8,8 @@ const person={
         console.log(`${this.name} is ${this.age} years old and his gender is ${this.gender}`);
     }
 }
-// console.log(person.userInfo);
-person.userInfo(); // 
+console.log(person.userInfo);
+person.userInfo();   
 
 function amazon(){
     console.log(`Customer name is ${this.userName} and Customer's ID is ${this.Id}`);

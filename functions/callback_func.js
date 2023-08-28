@@ -17,4 +17,4 @@ function Func(a,b){
 function Func2(callback){
     console.log("I am inside Func2");
 }
-Func2(Func(32,3));
+Func2(Func(3,4));
