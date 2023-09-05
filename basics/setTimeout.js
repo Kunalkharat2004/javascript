@@ -24,10 +24,3 @@ const add=(a,b)=>{
 //To stop the repeated execution, you can use the clearInterval function and provide it with the ID returned by the setInterval call:
 let id1=setInterval(()=>{add(3,4)},2000);
 clearInterval(id1);
-
-const obj={
-    p:this
-};
-console.log(obj.p);
-
-

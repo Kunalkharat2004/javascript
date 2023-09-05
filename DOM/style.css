@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+ font-family: 'Roboto', sans-serif;
+}
+.header{
+    position: relative;
+   height: 40%;
+   min-width:100%;
+    background-image: url('bg-img2.jpg');
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-items a{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+}
+.nav{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items li{
+    list-style-type: none;
+}
+.headline h2{
+    color:white;
+    font-size: 2rem;
+}
+.headline{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border:none;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    margin-top:1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.plan{
+    font-size: 1.7rem;
+}
+.section-to-do{
+    position: relative;
+    top:5rem;
+    text-align: center;
+}
+.to-do-form{
+    margin-top:1rem;
+    min-height:6vh;
+    display: flex;
+    justify-content: space-between;
+}
+.to-do-form input{
+    min-height: 100%;
+}
+.to-do-form input[type="text"]{
+    width: 68%;
+    padding:1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+    border:2px solid gray;
+}
+.btn-to-do{
+    width:20%;
+    background-color: #11172c;
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.input{
+    position: relative;
+    left: 20px;
+}
+.section-signup{
+    width:70%;
+    margin:auto;
+    background-color: rgb(198, 195, 195);
+    padding: 1rem;
+    position: relative;
+    margin-top:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+.signup-form label{
+    margin-bottom:0.2rem ;
+    display: block;
+}
+.signup-form input{
+    padding: 0.5rem;
+    display: block;
+}
+.signup-form{
+    max-width:800px;
+    max-height:800px;
+    width: 95%;
+    margin-top: 1rem;
+}
+.signup-form input{
+    width:100%;
+}
+.form-group{
+    margin-top: 1.2rem;
+}
+.form-group textarea{
+    width:100%;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.form-group input{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.signup-btn{
+    color: white;
+    background-color: #11172c;
+    padding:1rem 1.7rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin-top:1rem;
+    margin-left: 45%;
+}
+
+@media (max-width:500px){
+    .logo{
+        font-size: 1rem;
+    }
+    .nav-items a{
+        width:100%;
+        height: 80%;
+        font-size: 0.7rem;
+        margin-right:5px;
+    }
+    .headline h2{
+        font-size: 1.2rem;
+    }
+    .btn-headline{
+        padding: 1rem;
+        font-size: 0.75rem;
+        font-weight: 800;
+
+    }
+    .plan{
+        font-size: 1.4rem;
+    }
+    .to-do-form input[type="text"]{
+        width: 68%;
+        height: 40px;
+        padding:1rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .btn-to-do{
+        width:20%;
+        height: 40px;
+        font-weight: 500;
+        font-size: 0.75rem;
+       
+    }
+    .signup-btn{
+        padding:1rem 1.3rem;
+        font-weight: 500;
+        font-size: 0.75rem;
+        margin-left: 35%;
+    }
+}

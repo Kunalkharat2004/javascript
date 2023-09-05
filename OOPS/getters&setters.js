@@ -19,7 +19,7 @@ set name(n){
         }
     }
     get area(){
-        return `Area of circle when radius is ${this.radius} is ${Math.PI*this.Radius**2}`
+        return `Area of circle when radius is ${this.Radius} is ${Math.PI*this.Radius**2}`
     };
 }
 const rad1= new Circle(5,"kunal");

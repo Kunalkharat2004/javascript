@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do app</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="selectAnyElement.js" defer></script> -->
+    <!-- <script src="changeText.js" defer></script> -->
+    <!-- <script src="changeStyle.js" defer></script> -->
+    <!-- <script src="get&set_attribute.js" defer></script> -->
+    <!-- <script src="iterate_elements.js" defer></script> -->
+
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Website logo</h1>
+        <ul class="nav-items">
+          <li class="list-items"><a href="#home">Home</a></li>
+          <li class="list-items"><a href="">To do</a></li>
+          <li class="list-items"><a href="">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2 id="main-heading">Manage your task </h2>
+        <button class="btn btn-headline">Learn more</button>
+      </div>
+    </header>
+    <section class="section-to-do container">
+      <h2 class="plan">Your plan for today</h2>
+      <form action="" class="to-do-form">
+        <input type="text" placeholder="Add to-do" class="input" />
+        <input type="button" class="btn-to-do btn" value="Add to-do" />
+      </form>
+    </section>
+
+    <section class="section-signup container">
+      <h2 class="plan">Sign up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="name" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirm password" id="confirmPassword" />
+        </div>
+        <div class="form-group">
+          <label for="mobile no">Mobile no.</label>
+          <input type="text" name="mobile no" id="mobile no" />
+        </div>
+        <div class="form-group">
+          <label for="about">Tell about yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

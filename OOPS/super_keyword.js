@@ -23,6 +23,7 @@ class Child extends Parent{
     }
 }
 const user1= new Child("Kunal",19,"Male","kunal@xyz.com");
+console.log(user1.Name);
 console.log(user1.Email);
 console.log(user1.about());
 console.log(user1.marks(98));
