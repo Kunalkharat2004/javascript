@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Roboto', sans-serif;
+}
+.header{
+    position: relative;
+    min-height: 40vh;
+    background-image: url('bg-img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    min-width: 1200px;
+    width: 90%;
+    margin:auto;
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-items a{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+}
+.nav{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headline h2{
+    color:white;
+    font-size: 2rem;
+}
+.headline{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border:none;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    margin-top:1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.plan{
+    font-size: 1.7rem;
+}
+.section-to-do{
+    position: relative;
+    top:5rem;
+    text-align: center;
+}
+.to-do-form{
+    margin-top:1rem;
+    min-height:6vh;
+    display: flex;
+    justify-content: space-around;
+}
+.to-do-form input{
+    min-height: 100%;
+}
+.to-do-form input[type="text"]{
+    width: 68%;
+    padding:1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+    border:2px solid gray;
+}
+.to-do-list{
+    font-size: 1.2rem;
+    text-align: left;
+    list-style-type: none;
+   
+}
+
+.to-do-list li{
+    padding: 0.7rem;
+    background-color: rgb(83, 83, 83);
+    color:#eee;
+    margin-top:1rem;
+    text-transform: capitalize;
+}
+.btn-to-do{
+    width:20%;
+    background-color: #11172c;
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.input{
+    position: relative;
+    left: 20px;
+}
+.section-signup{
+    background-color: rgb(198, 195, 195);
+    padding: 1rem;
+    margin-left:6rem;
+    position: absolute;
+    margin-top:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+.signup-form label{
+    margin-bottom:0.2rem ;
+    display: block;
+}
+.signup-form input{
+    padding: 0.5rem;
+    display: block;
+}
+.signup-form{
+    max-width:800px;
+    width: 95%;
+    margin-top: 1rem;
+    margin:auto;
+}
+.signup-form input{
+    width:100%;
+}
+.form-group{
+    margin-top: 1.2rem;
+}
+.form-group textarea{
+    width:100%;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.form-group input{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.signup-btn{
+    color: white;
+    background-color: #11172c;
+    padding:1rem 1.7rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin-top:1rem;
+    margin-left: 50%;
+}

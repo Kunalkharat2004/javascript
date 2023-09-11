@@ -1,4 +1,5 @@
 const arr1=[[1,2,6],[5,8],[9,4]];
+console.log(arr1)
 console.log(arr1[0]);   //[1,2,6]
 console.log(arr1[0][1]);  //2
 console.log(arr1[2][1]);  //4
