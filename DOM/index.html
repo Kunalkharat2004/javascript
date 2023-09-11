@@ -10,7 +10,7 @@
     <!-- <script src="changeStyle.js" defer></script> -->
     <!-- <script src="get&set_attribute.js" defer></script> -->
     <!-- <script src="iterate_elements.js" defer></script> -->
-
+    <script src="script.js" defer></script>
 
   </head>
   <body>
@@ -29,11 +29,23 @@
       </div>
     </header>
     <section class="section-to-do container">
+      
       <h2 class="plan">Your plan for today</h2>
+
       <form action="" class="to-do-form">
         <input type="text" placeholder="Add to-do" class="input" />
-        <input type="button" class="btn-to-do btn" value="Add to-do" />
+        <button class="btn-to-do btn" type="submit">Add to-do</button>
       </form>
+
+      <ul class="to-do-list">
+       <li>
+        <span class="text">What do you want to do?</span>
+        <div class="to-do-button-section">
+          <button class="done to-do-button">Done</button>
+          <button class="remove to-do-button">Remove</button>
+        </div>
+       </li>
+      </ul>
     </section>
 
     <section class="section-signup container">

@@ -107,6 +107,29 @@ body{
     font-size: 1rem;
     border-radius: 15px;
 }
+
+
+.to-do-list li{
+    padding: 0.7rem;
+    background-color: rgb(83, 83, 83);
+    color:#eee;
+    margin-top:1rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.to-do-button{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 1rem;
+}
 .input{
     position: relative;
     left: 20px;

@@ -43,7 +43,7 @@ link3.forEach((link)=>{
 })
 
 //We can use all loops on NodeList
-const link4= document.querySelectorAll("a");
+const link4 = document.querySelectorAll("a");
 
 for(let i=0;i<link4.length;i++){
     link4[i].style.backgroundColor="purple";

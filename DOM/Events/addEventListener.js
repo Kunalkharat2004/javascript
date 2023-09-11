@@ -1,5 +1,6 @@
 const allButton= document.querySelectorAll(".btn button");  //All the buttons are selected
-
+const body = document.body;
+const btnOne= document.querySelector("#one");
 //Now we can add events by using for loops
 
 // for(let i=0;i<allButton.length;i++){
@@ -13,3 +14,14 @@ for(let button of allButton){
         console.log(button.textContent);
     });
 };
+
+body.addEventListener("keypress",(e)=>{
+    console.log(e.key);
+});
+
+btnOne.addEventListener("mouseover",()=>{
+    console.log("Mouse event occurred!");
+});
+btnOne.addEventListener("mouseleave",()=>{
+    console.log("Mouse event leaved!");
+});

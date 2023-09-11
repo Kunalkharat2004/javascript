@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main-heading{
+    text-align: center;
+    background-color:#333;
+    color: white;
+    border-radius: 1rem;
+    padding:1rem 2rem;
+    font-size: 1.4rem;
+}
+.btn-change{
+    text-align: center;
+    margin-top:1rem;
+    padding:1rem 2rem;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: body 0.4s;
+}
+.btn-change:hover{
+    background-color: rgb(226, 229, 231);
+}
