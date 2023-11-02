@@ -13,13 +13,13 @@ parent.addEventListener("click",()=>{
     console.log("bubble parent");
 });
 
-// child.addEventListener("click",()=>{
-//     console.log("bubble child");
-// });
+child.addEventListener("click",()=>{
+    console.log("bubble child");
+});
 
-// body.addEventListener("click",()=>{
-//     console.log("bubble body");
-// })
+body.addEventListener("click",()=>{
+    console.log("bubble body");
+})
 
 // This is called Event capturing means, first js will check whether we are capturing document.body, then grandParent,parent,child if yes then the function will invoked
 
@@ -38,5 +38,3 @@ child.addEventListener("click",()=>{
 body.addEventListener("click",()=>{
     console.log("capture !!!! body");
 },true);
-
-

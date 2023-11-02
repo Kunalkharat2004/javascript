@@ -1,4 +1,6 @@
-//Map method will return an array which return function i.e(the function which is passed as an argument in map()) is returning
+//Map method will return an array which returning function i.e(the function which is passed as an argument in map()) is returning
+//Here the length of the array that the map function is returning is same as that of original array length 
+
 const arr=[1,2,3,4,5,6];
 
 const square=(num)=>{

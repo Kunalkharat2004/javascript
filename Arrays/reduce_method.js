@@ -16,9 +16,7 @@ const amazon=[
     {productName:"Laptop", productId:2, price:30000},
     {productName:"PS5", productId:3, price:120000}
 ];
- const bill=amazon.reduce((totalPrice,currentProduct)=>{
-    return totalPrice +=currentProduct.price;
- },0);
+ const bill=amazon.reduce((acc,item)=>{return acc += item.price},0);
 console.log(bill);
 
 /*

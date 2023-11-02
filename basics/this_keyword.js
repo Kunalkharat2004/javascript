@@ -17,8 +17,3 @@ student.myfunc();
 student.xyz();
 student.arr();
 //Arrow function do not have their own this. They take the value of this from their lexical scope(i.e the parent this value)
-
-
-
-
-
